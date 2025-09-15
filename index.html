@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Convertir imagen en bloque para centrarlo-->
+<style>
+img {
+  display: block;
+  margin: auto;
+}
+</style>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" 
         content="width=device-width, initial-scale=1.0">
@@ -9,19 +17,59 @@
     </head>
 
     <body>
-        <h1>Pizzeria El Buen Sabor</h1>
-            <a href="index.html">Inicio</a>
-            <br>
-            <a href="nosotros.html">Sobre Nosotros</a>
-            <br>
-            <a href="contacto.html">Contacto</a>
-            <br>
-            <a href="orden.html">Ordena Ahora</a>
+        <blockquote>
+            <div>
+            <h1 style="text-align: center;">Pizzeria El Buen Sabor</h1><!--Opciones-->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="orden.html">Ordena Ahora</a></li>
+            </ul>
+            </div>
             <br>
 
-        <h1>Bienvenidos</h1>
-            <p>La pizzeria con las pizzas más sabrosas y artesanales</p>
+            <div>
+            <h1 style="text-align: center;">Bienvenidos</h1>
+                <p style="text-align: center;">La pizzeria con las pizzas más sabrosas y artesanales</p>
+                <img src="img/pizza.jpg" alt="Domicilio" width="900" height="300"></blockquote>
+            </div>
+            <br>
+            
+            <div>
+            <h1>Nuestro Menu</h1>
+                <ul>
+                    <li> Pizza Margarita</li>
+                    <li> Pizza Pepperoni</li>
+                    <li> Pizza Vegetariana</li>
+                    <li> Pizza Cuatro Quesos</li>
+                </ul>
+            </div>
+            <br>
+            <div>
+                <h1>Horarios</h1><!--Tabla de Horarios-->
+                    
+                    <table border="1">
+                        <tr>
+                            <th>Día</th>
+                            <th>Horario</th>
+                        </tr>
+                        <tr>
+                            <td>Lunes a Viernes</td>
+                            <td>12:00 - 22:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sábados y Domingos</td>
+                            <td>14:00 - 00:00</td>
+                        </tr>
+                    </table>
+            </div>
+                    <br>
+                    <br>
+                    <br>
 
+                <center>&copy; 2025 Pizzeria El Buen Sabor</center>
+        </blockquote>
     </body>
         
     
