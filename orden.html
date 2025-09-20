@@ -13,10 +13,66 @@
             <h1>Ordena Ahora</h1>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Sobre Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
                 <li><a href="orden.html">Ordena Ahora</a></li>
             </ul>
+
+            <table border="1">
+                        <tr>
+                            <th>Nombre</th>
+                            <th>ingrendientes</th>
+                            <th>Precio</th>
+                        </tr>
+                        <tr>
+                            <td>Pizza Margarita</td>
+                            <td>Queso mozzarella, salsa de tomate, albahaca</td>
+                            <td>$230 MXN</td>
+                        </tr>
+                        <tr>
+                            <td>Pizza Pepperoni</td>
+                            <td>Queso mozzarella, salsa de tomate, pepperoni</td>
+                            <td>$250 MXN</td>
+                        </tr>
+                         <tr>
+                            <td>Pizza Vegetariana</td>
+                            <td>Queso mozzarella, pimientos, champiñones</td>
+                            <td>$220 MXN</td>
+                        </tr>
+                         <tr>
+                            <td>Pizza 4 Quesos</td>
+                            <td>Queso mozzarella, queso parmesano, queso azul, queso gouda</td>
+                            <td>$280 MXN</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <br>
+                    <!-- FORMULARIO DE PEDIDO -->
+<form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="correo">Correo:</label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="pizza">Selecciona tu pizza:</label><br>
+    <select id="pizza" name="pizza">
+        <option value="margarita">Pizza Margarita</option>
+        <option value="pepperoni">Pizza Pepperoni</option>
+        <option value="vegetariana">Pizza Vegetariana</option>
+        <option value="4quesos">Pizza 4 Quesos</option>
+    </select><br><br>
+
+    <label for="cantidad">Cantidad:</label><br>
+    <input type="number" id="cantidad" name="cantidad" min="1" value="1"><br><br>
+
+    <label for="mensaje">Mensaje adicional:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Enviar pedido">
+</form>
+
         </blockquote>
     </body>
 </html>
